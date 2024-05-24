@@ -1,0 +1,180 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family: 'Sarabun', sans-serif;
+}
+.logo{
+	font-size: 30px;
+	font-weight: 800;
+    color: #2e241a;
+    text-decoration: none;
+	padding-right: 500px;
+}
+.active{
+	text-align:center;
+	font-size: 20px;
+	font-weight: 400;
+}
+.design{
+	text-align:center;
+	font-size: 20px;
+	font-weight: 400;
+}
+#menu{
+	position:fixed;
+	top:80px;
+	left:195px;
+	z-index: 100;
+}
+
+#menu li {
+	display:inline-block;
+	margin-left: 80px;
+}
+#menu li a{
+	text-decoration:none;
+}
+#menu li.active a{
+	font-weight: 800;
+}
+
+.section{
+	text-align:left;
+}
+
+.section p{
+	color: #f4f4f4;
+	font-size: 20px;
+	font-weight: 450;
+	margin: 1px;
+
+}
+
+.section h1{
+	color: #f4f4f4;
+	font-size: 65px;
+	font-weight: bold;
+	margin-bottom:20px;
+
+}
+
+#section0{
+	background-image:url("pozadie1.png");
+}
+
+#section0 h1{
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+#section0 h2{
+	color: #f4f4f4;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+#section1{
+	background-image:url("pozadie2.png");
+}
+
+#section2{
+	background-image:url("pozadie3.png");
+}
+
+#section3{
+	background-image:url("pozadie4.png");
+}
+
+.menu-start li a{
+	color: #2e241a;
+}
+
+.menu-section-0 li a{
+	color: #2e241a;
+}
+
+.menu-default li a{
+	color: #f4f4f4;
+}
+
+.column {
+	float: left;
+	margin-top: 120px;
+}
+
+.side-left {
+	width: 16.5%;
+}
+
+.side-right {
+	width: 15%;
+}
+
+.middle{
+	width: 5%;
+}
+
+.text-format {
+	width: 30%;
+}
+
+.picture {
+	width: 33.5%;
+}
+
+.big-picture {
+	width: 380px;
+}
+
+.small-picture {
+	width: 190px;
+}
+
+.middle-special{
+	width: 8%;
+}
+.intro:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+.square {
+	width: 270px;
+	height: 270px;
+	border-radius: 5%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+.small-square {
+	width: 170px;
+	height: 170px;
+	border-radius: 5%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.rectangle {
+	width: 360px;
+	height: 550px;
+	border-radius: 5%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+.cube {
+	width: 550px;
+	height: 550px;
+	border-radius: 5%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+iframe {
+	border-radius: 5%;
+	height:520px;
+}
